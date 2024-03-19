@@ -1,0 +1,1205 @@
+/* ---------------- Google Fonts -------------- */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+/* ---------------- fonts ------------------ */
+@font-face {
+  font-family: "AvenirLTStd-Heavy";
+  src: url("../fonts/AvenirLTStd-Heavy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BrushScriptMT";
+  src: url("../fonts/BrushScriptMT.ttf") format("truetype");
+  src: url("../fonts/BrushScriptMT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "BrushScriptMT-cursive";
+  src: url("../fonts/brush-script-mt-kursiv.ttf") format("truetype");
+  src: url("../fonts/BRUSHSCI.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "Savoye";
+  src: url("../fonts/savoye_let_plain.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura-medium";
+  src: url("../fonts/futura-medium-bt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-RegularItalic.eot");
+  src: local("Quatro Regular Italic"), local("Quatro-RegularItalic"),
+    url("../fonts/Quatro-RegularItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-RegularItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-RegularItalic.woff") format("woff"),
+    url("../fonts/Quatro-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-ExtraLightItalic.eot");
+  src: local("Quatro ExtraLight Italic"), local("Quatro-ExtraLightItalic"),
+    url("../fonts/Quatro-ExtraLightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Quatro-ExtraLightItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-ExtraLightItalic.woff") format("woff"),
+    url("../fonts/Quatro-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-Regular.eot");
+  src: local("Quatro Regular"), local("Quatro-Regular"),
+    url("../fonts/Quatro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-Regular.woff2") format("woff2"),
+    url("../fonts/Quatro-Regular.woff") format("woff"),
+    url("../fonts/Quatro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-SemiBold.eot");
+  src: local("Quatro SemiBold"), local("Quatro-SemiBold"),
+    url("../fonts/Quatro-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-SemiBold.woff2") format("woff2"),
+    url("../fonts/Quatro-SemiBold.woff") format("woff"),
+    url("../fonts/Quatro-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-Medium.eot");
+  src: local("Quatro Medium"), local("Quatro-Medium"),
+    url("../fonts/Quatro-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-Medium.woff2") format("woff2"),
+    url("../fonts/Quatro-Medium.woff") format("woff"),
+    url("../fonts/Quatro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-BlackItalic.eot");
+  src: local("Quatro Black Italic"), local("Quatro-BlackItalic"),
+    url("../fonts/Quatro-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-BlackItalic.woff") format("woff"),
+    url("../fonts/Quatro-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-ExtraLight.eot");
+  src: local("Quatro ExtraLight"), local("Quatro-ExtraLight"),
+    url("../fonts/Quatro-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-ExtraLight.woff2") format("woff2"),
+    url("../fonts/Quatro-ExtraLight.woff") format("woff"),
+    url("../fonts/Quatro-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-Bold.eot");
+  src: local("Quatro Bold"), local("Quatro-Bold"),
+    url("../fonts/Quatro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-Bold.woff2") format("woff2"),
+    url("../fonts/Quatro-Bold.woff") format("woff"),
+    url("../fonts/Quatro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-LightItalic.eot");
+  src: local("Quatro Light Italic"), local("Quatro-LightItalic"),
+    url("../fonts/Quatro-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-LightItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-LightItalic.woff") format("woff"),
+    url("../fonts/Quatro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro UltraBlack";
+  src: url("../fonts/Quatro-UltraBlack.eot");
+  src: local("Quatro UltraBlack"), local("Quatro-UltraBlack"),
+    url("../fonts/Quatro-UltraBlack.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-UltraBlack.woff2") format("woff2"),
+    url("../fonts/Quatro-UltraBlack.woff") format("woff"),
+    url("../fonts/Quatro-UltraBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-SemiBoldItalic.eot");
+  src: local("Quatro SemiBold Italic"), local("Quatro-SemiBoldItalic"),
+    url("../fonts/Quatro-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/Quatro-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-Black.eot");
+  src: local("Quatro Black"), local("Quatro-Black"),
+    url("../fonts/Quatro-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-Black.woff2") format("woff2"),
+    url("../fonts/Quatro-Black.woff") format("woff"),
+    url("../fonts/Quatro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro Book";
+  src: url("../fonts/Quatro-BookItalic.eot");
+  src: local("Quatro Book Italic"), local("Quatro-BookItalic"),
+    url("../fonts/Quatro-BookItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-BookItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-BookItalic.woff") format("woff"),
+    url("../fonts/Quatro-BookItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-Light.eot");
+  src: local("Quatro Light"), local("Quatro-Light"),
+    url("../fonts/Quatro-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-Light.woff2") format("woff2"),
+    url("../fonts/Quatro-Light.woff") format("woff"),
+    url("../fonts/Quatro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro UltraBlack";
+  src: url("../fonts/Quatro-UltraBlackItalic.eot");
+  src: local("Quatro UltraBlack Italic"), local("Quatro-UltraBlackItalic"),
+    url("../fonts/Quatro-UltraBlackItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Quatro-UltraBlackItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-UltraBlackItalic.woff") format("woff"),
+    url("../fonts/Quatro-UltraBlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro Book";
+  src: url("../fonts/Quatro-Book.eot");
+  src: local("Quatro Book"), local("Quatro-Book"),
+    url("../fonts/Quatro-Book.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-Book.woff2") format("woff2"),
+    url("../fonts/Quatro-Book.woff") format("woff"),
+    url("../fonts/Quatro-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-BoldItalic.eot");
+  src: local("Quatro Bold Italic"), local("Quatro-BoldItalic"),
+    url("../fonts/Quatro-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-BoldItalic.woff") format("woff"),
+    url("../fonts/Quatro-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-MediumItalic.eot");
+  src: local("Quatro Medium Italic"), local("Quatro-MediumItalic"),
+    url("../fonts/Quatro-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-MediumItalic.woff") format("woff"),
+    url("../fonts/Quatro-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* ---------------- Basic css ------------------ */
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  scroll-behavior: unset;
+  --white: #ffffff;
+  --black: #000000;
+  --boxShadow: 0 0rem 1.5rem 0.1rem rgba(0, 0, 0, 0.15);
+  --purple: #935465;
+}
+
+img {
+  width: 100%;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+  color: inherit;
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* body */
+body {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.94;
+  color: var(--black);
+  overflow-x: hidden;
+  font-family: "Quatro";
+}
+
+.container {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+main {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.figure img,
+.figure {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  font-family: "Quatro";
+}
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.mt_60_important {
+  margin-top: 6rem !important;
+}
+.color_purple {
+  color: #935465 !important;
+}
+.white_img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+    hue-rotate(240deg) brightness(102%) contrast(102%) !important;
+}
+.purple_img {
+  filter: brightness(0) saturate(100%) invert(39%) sepia(30%) saturate(692%)
+    hue-rotate(293deg) brightness(88%) contrast(86%);
+}
+/* -------------- Scroll bar ------------- */
+::-webkit-scrollbar {
+  width: 1.2rem;
+  /* width of the entire scrollbar */
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* color of the track */
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--purple);
+  /* color of the thumb */
+  border-radius: 1rem;
+  /* rounded corners of the thumb */
+  border: 1px solid #f1f1f1;
+  /* border around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(133, 98, 98, 0.8);
+}
+
+/* -------------- preloader --------------- */
+#preloader {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.loader3 {
+  width: 5rem;
+  height: 5rem;
+  display: inline-block;
+  padding: 0;
+  text-align: left;
+}
+
+.loader3 span {
+  position: absolute;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  background: #935465;
+  -webkit-animation: loader3 1.5s linear infinite;
+  animation: loader3 1.5s linear infinite;
+}
+
+.loader3 span:last-child {
+  animation-delay: -0.9s;
+  -webkit-animation-delay: -0.9s;
+}
+
+@-webkit-keyframes loader3 {
+  0% {
+    -webkit-transform: scale(0, 0);
+    transform: scale(0, 0);
+    opacity: 0.8;
+  }
+
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes loader3 {
+  0% {
+    -webkit-transform: scale(0, 0);
+    transform: scale(0, 0);
+    opacity: 0.8;
+  }
+
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+/* -------------- Back to top ------------ */
+.back-to-top {
+  width: 5.5rem;
+  height: 5.5rem;
+  line-height: 4.5rem;
+  text-align: center;
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  border-radius: 50%;
+  background: #935465;
+  z-index: 1000;
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.back-to-top img {
+  -webkit-filter: brightness(0) saturate(100%) invert(100%) sepia(100%)
+    saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+    hue-rotate(288deg) brightness(102%) contrast(102%);
+  width: 2rem;
+}
+
+.topbtn_hide {
+  opacity: 1;
+}
+.back-to-top:hover {
+  opacity: 0.7;
+}
+/* -------------- Hamburger Menu --------------- */
+.hamburger-menu span {
+  width: 2rem;
+  height: 0.2rem;
+  background: #fff;
+  position: absolute;
+  border-radius: 10rem;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hamburger-menu {
+  width: 3rem;
+  height: 2rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hamburger-menu:hover {
+  opacity: 0.5;
+}
+
+.bar .line-top {
+  -webkit-transform: translateY(-0.6rem);
+  -ms-transform: translateY(-0.6rem);
+  transform: translateY(-0.6rem);
+}
+
+.bar .line-bottom {
+  -webkit-transform: translateY(0.6rem);
+  -ms-transform: translateY(0.6rem);
+  transform: translateY(0.6rem);
+}
+
+.hamburger-menu.bar:hover .line-top {
+  -webkit-transform: translateY(-0.7rem);
+  -ms-transform: translateY(-0.7rem);
+  transform: translateY(-0.7rem);
+}
+
+.hamburger-menu.bar:hover .line-bottom {
+  -webkit-transform: translateY(0.7rem);
+  -ms-transform: translateY(0.7rem);
+  transform: translateY(0.7rem);
+}
+
+.cross .line-top {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.cross .line-bottom {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.cross .line-center {
+  opacity: 0;
+  width: 0;
+}
+
+/* -------------- Header Styles by Sahriar --------------- */
+.site_header {
+  height: 6rem;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background: transparent;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.site_header .container-fluid,
+.header_right {
+  height: 100%;
+}
+.sticky {
+  position: fixed;
+  -webkit-box-shadow: 0 0 1.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  -webkit-animation: 0.3s updown;
+  animation: 0.3s updown;
+  background: #935465;
+}
+
+@-webkit-keyframes updown {
+  0% {
+    top: -100%;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes updown {
+  0% {
+    top: -100%;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+.menu_up {
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transform: translateY(-105%);
+  -ms-transform: translateY(-105%);
+  transform: translateY(-105%);
+  -webkit-box-shadow: 0 0 1.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  width: 100%;
+  padding: 0;
+}
+
+.logo img {
+  width: 5.5rem;
+  margin-right: 2rem;
+}
+.logo:hover {
+  backdrop-filter: contrast(0.6);
+}
+.logo {
+  font-size: 1.5rem;
+  color: #fff;
+  padding-right: 1rem;
+}
+.logo:hover {
+  color: #fcfcfc;
+}
+.primary_menu > .mainlink {
+  color: #efefef;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.32px;
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.sticky .color_purple {
+  color: #efefef !important;
+}
+.home_logo {
+  width: 25rem;
+}
+.primary_menu > a {
+  position: relative;
+}
+
+.primary_menu > .mainlink:hover img {
+  filter: brightness(0) saturate(100%) invert(69%) sepia(6%) saturate(106%)
+    hue-rotate(187deg) brightness(94%) contrast(92%);
+}
+.primary_menu a:not(.submenu > a):hover {
+  opacity: 0.7;
+}
+.color_purple:hover {
+  opacity: 0.7;
+}
+.primary_menu {
+  gap: 2.5rem;
+  padding-right: 0.6rem;
+  height: 100%;
+}
+.mainlink {
+  position: relative;
+}
+.primary_menu > .mainlink img {
+  width: 1.8rem;
+}
+.sticky .primary_menu > .mainlink img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+    hue-rotate(240deg) brightness(102%) contrast(102%);
+}
+.search_icon {
+  cursor: pointer;
+}
+.sticky .search_icon img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+    hue-rotate(240deg) brightness(102%) contrast(102%);
+}
+
+/* --------------- Submenu ----------------- */
+.submenu {
+  position: absolute;
+  background: #fff;
+  height: 0;
+  display: grid;
+  border-radius: 0.8rem;
+  top: 8rem;
+  width: 16rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 0.4rem solid #935465;
+  border-top-right-radius: 0.3rem;
+  border-top-left-radius: 0.3rem;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.3s ease;
+  z-index: -9999;
+  box-shadow: var(--boxShadow);
+}
+.primary_menu > .mainlink:hover > .submenu {
+  height: 12rem;
+  opacity: 1;
+  z-index: 9999;
+  top: 5rem;
+}
+.submenu > a {
+  color: #935465;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.32px;
+  font-family: "Lato", sans-serif;
+  border-bottom: 0.1rem solid #efefef;
+  padding: 0 2rem;
+  align-items: center;
+  display: flex;
+}
+.submenu > a:hover {
+  background: #fcfcfc;
+}
+.submenu > a:last-child {
+  border-bottom: none;
+}
+
+/* --------------------- Search Bar -------------------- */
+.Search_box {
+  position: relative;
+}
+#search {
+  padding: 0.5rem 1.5rem;
+  border: 0.1rem solid #efefef;
+  width: 34vw;
+}
+.search_bar {
+  position: absolute;
+  right: 0;
+  background: #fff;
+  border-radius: 0.5rem;
+  top: 4rem;
+  height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  overflow: hidden;
+  transition: 0.6s ease;
+  opacity: 0;
+  z-index: -999999;
+  box-shadow: var(--boxShadow);
+}
+.search_bar.active {
+  height: 6rem;
+  opacity: 1;
+  z-index: 999999;
+}
+/* ---------------------- Hero Section --------------------- */
+.hero_section {
+  background: url(../img/home_prima.jpg) no-repeat
+    fixed top center / cover;
+  height: 150vh;
+}
+.homeHero_texts p {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.5rem;
+  margin-top: 3.5rem;
+}
+.homeHero_texts {
+  position: absolute;
+  right: 4rem;
+  top: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.homeHero_texts h2 {
+  font-size: 14rem;
+  color: #fff;
+  line-height: 10rem;
+  font-weight: 300;
+  text-align: right;
+}
+.it {
+  letter-spacing: 1rem;
+  padding-right: 19.5rem;
+}
+
+/* ---------------------- Pink Text Section ---------------------- */
+.pink_section {
+  background: #935465;
+}
+.text_lg {
+  font-size: 4rem;
+  line-height: 3.6rem;
+  color: var(--white);
+  font-weight: 400;
+}
+.text_italic {
+  font-style: italic;
+}
+.text_sm {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: var(--black);
+}
+.text_xsm {
+  font-size: 1.3rem;
+  color: #010101;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.pr_1_25 {
+  padding-right: 1.25rem;
+}
+.pl_1_25 {
+  padding-left: 1.25rem;
+}
+.textline_2 {
+  letter-spacing: 0.052rem;
+}
+
+.textline_3 {
+  letter-spacing: 0.04rem;
+}
+
+.textline_4 {
+  letter-spacing: 0.009rem;
+}
+
+.textline_6 {
+  letter-spacing: 0.078rem;
+}
+
+.textline_7 {
+  letter-spacing: 0.035rem;
+}
+
+.textline_8 {
+  letter-spacing: 0.025rem;
+}
+
+.textline_9 {
+  letter-spacing: 0.037rem;
+}
+
+.textline_10 {
+  letter-spacing: 0.016rem;
+}
+.site_btn {
+  background: #935465;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 9rem;
+  color: #fff;
+  line-height: normal;
+  font-weight: 300;
+  width: fit-content;
+  border-radius: 10rem !important;
+}
+.btn_big {
+  font-size: 2.8rem;
+}
+.site_btn:hover {
+  box-shadow: var(--boxShadow);
+  background: #935465;
+  color: #fff;
+}
+
+/* ------------------------- Gadget di lussi 02 Text_section2 ------------------------ */
+.gadget_img1 {
+  width: 60rem;
+  margin: 0 auto;
+}
+.color_red {
+  color: #935465;
+  font-weight: 900;
+}
+.texts_section2 .text_sm {
+  line-height: 2.2rem;
+}
+
+/* ------------------------- Gadget di lussi 02 Service_section ------------------------ */
+.G2_service_section .text_xsm {
+  letter-spacing: 0.05rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.g2_service_box h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  color: #935465;
+}
+.texts_section3 .text_sm {
+  letter-spacing: 0.09rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+  font-size: 1.9rem;
+}
+.texts_section3 .container .texts {
+  border-top: 0.2rem solid #935465;
+  padding: 4rem 0;
+  border-bottom: 0.2rem solid #935465;
+}
+.g2_btns .site_btn {
+  padding: 0.8rem 0;
+  border-radius: 0.3rem;
+  width: 100%;
+}
+.btn_sm {
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+/* ------------------------ Gadet di lussi 03 Page ----------------------------- */
+.texts_section4 .g2_btns .site_btn {
+  width: 50rem;
+}
+
+/* ------------------------ Regali Aziendali 04 Page ----------------------------- */
+.regali_aziendali_04 .site_btn {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pink_section1 .text_lg,
+.texts_section5 .text_lg {
+  line-height: 7rem;
+  font-size: 5.3rem;
+}
+.texts_section5 .text_lg {
+  color: #935465;
+}
+
+/* ------------------ gadget hotel di lusso 05 -------------------- */
+.g5_img {
+  width: 60%;
+  margin: 0 auto;
+}
+.texts_section6 .text_sm {
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+}
+.texts_section6 .site_btn.btn_big {
+  font-size: 2.2rem;
+  padding: 0.8rem 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gadget_di_lussi_06 .ra04_heroSection img {
+  filter: brightness(0.85);
+}
+
+/* ------------------ gadget hotel di lusso 06 -------------------- */
+.texts_section7 .text_sm {
+  line-height: 2.3rem;
+  font-size: 1.8rem;
+}
+.texts_section7 .site_btn {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.2rem;
+  padding: 0.8rem 8rem;
+}
+
+/* ------------------ Storia_Teritorio -------------------- */
+.G2_service_section2 {
+  padding-top: 15rem;
+}
+.ST_pink_section {
+  padding-top: 16.5rem;
+  padding-bottom: 20.5rem;
+}
+.ST_pink_section .text_sm {
+  font-size: 2.45rem;
+  letter-spacing: 0.08rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+}
+.cursy_text {
+  font-family: "BrushScriptMT", cursive;
+  color: #935465;
+  font-size: 6rem;
+  padding: 0 2rem;
+}
+.G2_service_section2 .g2_service_box h2 {
+  font-size: 2.5rem;
+}
+.G2_service_section2 .text_sm {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.04rem;
+}
+.g2_service_box .site_btn.btn_sm {
+  padding: 0.8rem 6.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.4rem;
+  font-size: 1.25rem;
+}
+.St_links a {
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: #000;
+  white-space: nowrap;
+  font-family: "Futura-medium", sans-serif;
+}
+.St_links a:hover {
+  color: #935465;
+}
+.St_links {
+  display: flex;
+  gap: 3.5rem 10rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.St_link_section {
+  background: #eaeaea;
+  padding-bottom: 8rem;
+  margin-top: 10rem;
+}
+
+/* ---------------------------- Contattaci ---------------------------- */
+.Form_box {
+  display: grid;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.form_title {
+  color: #935465;
+  font-size: 3rem;
+}
+.Form_box input::placeholder {
+  color: #a57d7d;
+  font-family: "lato", sans-serif;
+}
+.Form_box input {
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  box-shadow: 0 0 0.2rem 0.01rem rgba(0, 0, 0, 0.4);
+  border-radius: 0.2rem;
+  font-weight: 400;
+  font-family: "lato", sans-serif;
+  color: #a57d7d;
+}
+.Form_box .site_btn {
+  background: #935465;
+  padding: 0.8rem 2rem;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+}
+.Form_box .site_btn:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+.cursive_text_section .cursy_text {
+  font-family: "Savoye", sans-serif;
+}
+.contact_links a img {
+  width: 2rem;
+  filter: brightness(0) saturate(100%) invert(36%) sepia(57%) saturate(355%)
+    hue-rotate(293deg) brightness(93%) contrast(91%);
+}
+.contact_links a:hover {
+  opacity: 0.7;
+}
+
+/* -------------- Blog Section --------------- */
+.blog_box img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+.blog_box {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.blog_box:hover img {
+  opacity: 0.8;
+}
+.blog_box p {
+  display: -webkit-box;
+  -webkit-line-clamp: 6; /* Limit to 10 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* --------- Blog Popup ----------- */
+.Blog_popup_wrap {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 9999999;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: 0.3s ease;
+  pointer-events: none;
+  background: #fff;
+}
+.Blog_popup_wrap.show {
+  transform: scale(1);
+  opacity: 1;
+  pointer-events: all;
+}
+/* .overlay {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background: #fff;
+  backdrop-filter: blur(3px);
+  left: 0;
+  top: 0;
+} */
+.blog_popup {
+  width: 90rem;
+  height: 100vh;
+  background: #fff;
+  overflow-y: scroll;
+  padding: 8rem 5rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.blog_popup_img {
+  margin: 0 auto;
+  height: auto;
+  object-fit: contain;
+  width: 100%;
+}
+.blog_popup_title {
+  font-size: 4rem;
+  font-weight: 300;
+}
+.close_popup {
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+}
+.close_popup .hamburger-menu.cross span {
+  background: #000;
+}
+.blog_section_title {
+  color: #935465;
+  font-weight: 600;
+  font-size: 4rem;
+}
