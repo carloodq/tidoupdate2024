@@ -1,5 +1,6 @@
 /* ---------------- Google Fonts -------------- */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 /* ---------------- fonts ------------------ */
 @font-face {
@@ -17,17 +18,11 @@
   font-style: normal;
 }
 
-/* @font-face {
+@font-face {
   font-family: "BrushScriptMT-cursive";
   src: url("../fonts/brush-script-mt-kursiv.ttf") format("truetype");
   src: url("../fonts/BRUSHSCI.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
-} */
-
-@font-face {
-  font-family: "Savoye";
-  src: url("../fonts/savoye_let_plain.ttf") format("truetype");
   font-style: normal;
 }
 
@@ -274,7 +269,6 @@ html {
   --white: #ffffff;
   --black: #000000;
   --boxShadow: 0 0rem 1.5rem 0.1rem rgba(0, 0, 0, 0.15);
-  --purple: #935465;
 }
 
 img {
@@ -369,20 +363,6 @@ button {
   outline: none;
   background: transparent;
 }
-.mt_60_important {
-  margin-top: 6rem !important;
-}
-.color_purple {
-  color: #935465 !important;
-}
-.white_img {
-  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
-    hue-rotate(240deg) brightness(102%) contrast(102%) !important;
-}
-.purple_img {
-  filter: brightness(0) saturate(100%) invert(39%) sepia(30%) saturate(692%)
-    hue-rotate(293deg) brightness(88%) contrast(86%);
-}
 /* -------------- Scroll bar ------------- */
 ::-webkit-scrollbar {
   width: 1.2rem;
@@ -397,7 +377,7 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--purple);
+  background-color: #000;
   /* color of the thumb */
   border-radius: 1rem;
   /* rounded corners of the thumb */
@@ -445,7 +425,7 @@ button {
   width: 5rem;
   height: 5rem;
   border-radius: 100%;
-  background: #935465;
+  background: #a41a46;
   -webkit-animation: loader3 1.5s linear infinite;
   animation: loader3 1.5s linear infinite;
 }
@@ -493,7 +473,7 @@ button {
   bottom: 3rem;
   right: 2rem;
   border-radius: 50%;
-  background: #935465;
+  background: #a41a46;
   z-index: 1000;
   opacity: 0;
   display: -webkit-box;
@@ -598,10 +578,10 @@ button {
   display: -ms-flexbox;
   display: flex;
   align-items: center;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   width: 100%;
-  background: transparent;
+  background: #222222;
   top: 0;
   left: 0;
   -webkit-transition: all 0.4s ease;
@@ -618,7 +598,6 @@ button {
   box-shadow: 0 0 1.5rem 0.5rem rgba(0, 0, 0, 0.1);
   -webkit-animation: 0.3s updown;
   animation: 0.3s updown;
-  background: #935465;
 }
 
 @-webkit-keyframes updown {
@@ -684,25 +663,21 @@ button {
   align-items: center;
   cursor: pointer;
 }
-.sticky .color_purple {
-  color: #efefef !important;
-}
 .home_logo {
   width: 25rem;
 }
 .primary_menu > a {
   position: relative;
 }
-
+.primary_menu > .mainlink:hover {
+  color: #a5a6a9;
+}
 .primary_menu > .mainlink:hover img {
   filter: brightness(0) saturate(100%) invert(69%) sepia(6%) saturate(106%)
     hue-rotate(187deg) brightness(94%) contrast(92%);
 }
-.primary_menu a:not(.submenu > a):hover {
-  opacity: 0.7;
-}
-.color_purple:hover {
-  opacity: 0.7;
+.primary_menu a:hover {
+  color: #a5a6a9;
 }
 .primary_menu {
   gap: 2.5rem;
@@ -714,19 +689,19 @@ button {
 }
 .primary_menu > .mainlink img {
   width: 1.8rem;
-}
-.sticky .primary_menu > .mainlink img {
   filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
     hue-rotate(240deg) brightness(102%) contrast(102%);
 }
 .search_icon {
   cursor: pointer;
 }
-.sticky .search_icon img {
+.search_icon img {
   filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
     hue-rotate(240deg) brightness(102%) contrast(102%);
 }
-
+.search_icon.active img {
+  opacity: 0.5;
+}
 /* --------------- Submenu ----------------- */
 .submenu {
   position: absolute;
@@ -738,7 +713,7 @@ button {
   width: 16rem;
   left: 50%;
   transform: translateX(-50%);
-  border-bottom: 0.4rem solid #935465;
+  border-bottom: 0.4rem solid #a41a46;
   border-top-right-radius: 0.3rem;
   border-top-left-radius: 0.3rem;
   overflow: hidden;
@@ -754,7 +729,7 @@ button {
   top: 5rem;
 }
 .submenu > a {
-  color: #935465;
+  color: #a41a46;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 100%;
@@ -805,8 +780,7 @@ button {
 }
 /* ---------------------- Hero Section --------------------- */
 .hero_section {
-  background: url(../img/home_prima.jpg) no-repeat
-    fixed top center / cover;
+  background: url(https://www.caramellatido.it/img/1.Copertina.jpg) no-repeat fixed top center / cover;
   height: 150vh;
 }
 .homeHero_texts p {
@@ -839,7 +813,7 @@ button {
 
 /* ---------------------- Pink Text Section ---------------------- */
 .pink_section {
-  background: #935465;
+  background: #a41a46;
 }
 .text_lg {
   font-size: 4rem;
@@ -900,7 +874,7 @@ button {
   letter-spacing: 0.016rem;
 }
 .site_btn {
-  background: #935465;
+  background: #a51a47;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -909,14 +883,13 @@ button {
   line-height: normal;
   font-weight: 300;
   width: fit-content;
-  border-radius: 10rem !important;
 }
 .btn_big {
   font-size: 2.8rem;
 }
 .site_btn:hover {
   box-shadow: var(--boxShadow);
-  background: #935465;
+  background: #a51a47;
   color: #fff;
 }
 
@@ -926,7 +899,7 @@ button {
   margin: 0 auto;
 }
 .color_red {
-  color: #935465;
+  color: #a51a47;
   font-weight: 900;
 }
 .texts_section2 .text_sm {
@@ -942,7 +915,7 @@ button {
 .g2_service_box h2 {
   font-size: 4rem;
   font-weight: 300;
-  color: #935465;
+  color: #a51a47;
 }
 .texts_section3 .text_sm {
   letter-spacing: 0.09rem;
@@ -951,9 +924,9 @@ button {
   font-size: 1.9rem;
 }
 .texts_section3 .container .texts {
-  border-top: 0.2rem solid #935465;
+  border-top: 0.2rem solid #a51a47;
   padding: 4rem 0;
-  border-bottom: 0.2rem solid #935465;
+  border-bottom: 0.2rem solid #a51a47;
 }
 .g2_btns .site_btn {
   padding: 0.8rem 0;
@@ -982,7 +955,7 @@ button {
   font-size: 5.3rem;
 }
 .texts_section5 .text_lg {
-  color: #935465;
+  color: #a51a47;
 }
 
 /* ------------------ gadget hotel di lusso 05 -------------------- */
@@ -999,9 +972,6 @@ button {
   padding: 0.8rem 8rem;
   margin-left: auto;
   margin-right: auto;
-}
-.gadget_di_lussi_06 .ra04_heroSection img {
-  filter: brightness(0.85);
 }
 
 /* ------------------ gadget hotel di lusso 06 -------------------- */
@@ -1032,16 +1002,10 @@ button {
 }
 .cursy_text {
   font-family: "BrushScriptMT", cursive;
-  color: #935465;
+  color: #a51a47;
   font-size: 6rem;
   padding: 0 2rem;
 }
-
-.pink_col {
-  color: #935465;
-}
-
-
 .G2_service_section2 .g2_service_box h2 {
   font-size: 2.5rem;
 }
@@ -1065,7 +1029,7 @@ button {
   font-family: "Futura-medium", sans-serif;
 }
 .St_links a:hover {
-  color: #935465;
+  color: #8c143d;
 }
 .St_links {
   display: flex;
@@ -1086,7 +1050,7 @@ button {
   justify-content: center;
 }
 .form_title {
-  color: #935465;
+  color: #8c143d;
   font-size: 3rem;
 }
 .Form_box input::placeholder {
@@ -1104,8 +1068,8 @@ button {
   color: #a57d7d;
 }
 .Form_box .site_btn {
-  background: #935465;
-  padding: 0.8rem 2rem;
+  background: #8d153f;
+  padding: 0.8rem;
   border-radius: 0.3rem;
   font-size: 1.2rem;
 }
@@ -1114,98 +1078,211 @@ button {
   opacity: 0.8;
 }
 .cursive_text_section .cursy_text {
-  font-family: "Savoye", sans-serif;
-}
-.contact_links a img {
-  width: 2rem;
-  filter: brightness(0) saturate(100%) invert(36%) sepia(57%) saturate(355%)
-    hue-rotate(293deg) brightness(93%) contrast(91%);
-}
-.contact_links a:hover {
-  opacity: 0.7;
+  font-family: "BrushScriptMT-cursive", cursive;
 }
 
-/* -------------- Blog Section --------------- */
-.blog_box img {
-  width: 100%;
-  height: 30rem;
-  object-fit: cover;
-}
-.blog_box {
-  cursor: pointer;
-  transition: 0.3s;
-}
-.blog_box:hover img {
-  opacity: 0.8;
-}
-.blog_box p {
-  display: -webkit-box;
-  -webkit-line-clamp: 6; /* Limit to 10 lines */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
+
+
+
+/* ---------- sostenibilita page css start -------- */
+
+body.sustainability_body{
+  font-family: "Lato", sans-serif;
 }
 
-/* --------- Blog Popup ----------- */
-.Blog_popup_wrap {
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  z-index: 9999999;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  opacity: 0;
-  transform: scale(0.8);
-  transition: 0.3s ease;
-  pointer-events: none;
-  background: #fff;
-}
-.Blog_popup_wrap.show {
-  transform: scale(1);
-  opacity: 1;
-  pointer-events: all;
-}
-/* .overlay {
+
+
+/*home area start*/
+.home-wrapper {
   width: 100%;
+  height: 485px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(141,13,61,1);
+}
+
+.home-wrapper::before {
+  content: "";
   position: absolute;
-  height: 100%;
-  background: #fff;
-  backdrop-filter: blur(3px);
-  left: 0;
   top: 0;
-} */
-.blog_popup {
-  width: 90rem;
-  height: 100vh;
-  background: #fff;
-  overflow-y: scroll;
-  padding: 8rem 5rem;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-}
-.blog_popup_img {
-  margin: 0 auto;
-  height: auto;
-  object-fit: contain;
+  left: 0;
   width: 100%;
+  height: 100%;
+  background-color: rgba(33,33,33,1);
+  opacity: 0.1;
 }
-.blog_popup_title {
-  font-size: 4rem;
+
+.home-logo img {
+  width: 365px;
+}
+
+
+
+
+/*default italic area start*/
+
+.default-italic-wrapper {
+  padding: 40px 0;
+}
+
+.default-italic-wrapper p {
+  font-family: 'Arial';
+  font-size: 13pt;
+  font-style: italic;
+}
+
+.default-italic-wrapper span {
+  font-size: 13pt;
+  font-weight: 400;
+  margin-top: 20px;
+  display: block;
+}
+
+
+/*sostenibilita area start*/
+
+.sostenibilita-content p {
+  color: rgba(33,33,33,1);
+}
+
+.para-text {
+  color: rgba(33,33,33,1);
+  font-size: 11pt;
+  font-weight: 400;
+  line-height: 1.6667;
+}
+
+.la-parola-wrapper {
+  padding: 20px 0 50px 0;
+}
+
+.sostenible-box li {
+  padding-left: 15px;
+}
+
+.sostenible-box li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background: #000000;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.tre-sono-box li {
+  padding-left: 0;
+}
+
+.tre-sono-box li::before {
+  display: none;
+}
+
+
+
+/*social area start*/
+.social-wrapper {
+  margin: 100px 0 60px 0;
+}
+
+.social-icon span {
+  color: #000000;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+.social-icon a{
+  display: inline-flex;
+  align-items: center;
+}
+
+.social-icon a .icon{
+  width: 30px;
+  height: 30px;
+  background: rgba(141,13,61,1);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 13px;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
+}
+
+.social-icon > :hover i {
+  background: rgb(181 17 79);
+}
+
+.social-icon a .icon img{
+  width: 13px;
+}
+
+
+
+
+
+/*filosofia area start*/
+.default-wrapper {
+  height: 340px !important;
+}
+
+.default-content h2 {
+  font-size: 64pt;
+  letter-spacing: 2px;
+  color: #fff;
   font-weight: 300;
 }
-.close_popup {
-  position: absolute;
-  right: 3rem;
-  top: 3rem;
+
+
+/*default italic area start*/
+
+.default-italic-wrapper {
+  padding: 40px 0;
 }
-.close_popup .hamburger-menu.cross span {
-  background: #000;
+
+.default-italic-wrapper p {
+  font-family: 'Arial';
+  font-size: 13pt;
+  font-style: italic;
 }
-.blog_section_title {
-  color: #935465;
-  font-weight: 600;
-  font-size: 4rem;
+
+.default-italic-wrapper span {
+  font-size: 13pt;
+  font-weight: 400;
+  margin-top: 20px;
+  display: block;
 }
+
+
+
+.theme-bg {
+	background: rgba(235,235,235,1);
+}
+
+.default-italic-wrapper p {
+	font-family: 'Arial';
+	font-size: 13pt;
+	font-style: italic;
+  line-height: 26px;
+}
+
+.sostenibilita-content p {
+	color: rgba(33,33,33,1);
+}
+
+
+
+
+/* ---------- sostenibilita page css end -------- */
