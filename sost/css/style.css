@@ -425,7 +425,7 @@ button {
   width: 5rem;
   height: 5rem;
   border-radius: 100%;
-  background: #a41a46;
+  background: #935465;
   -webkit-animation: loader3 1.5s linear infinite;
   animation: loader3 1.5s linear infinite;
 }
@@ -473,7 +473,7 @@ button {
   bottom: 3rem;
   right: 2rem;
   border-radius: 50%;
-  background: #a41a46;
+  background: #935465;
   z-index: 1000;
   opacity: 0;
   display: -webkit-box;
@@ -713,7 +713,7 @@ button {
   width: 16rem;
   left: 50%;
   transform: translateX(-50%);
-  border-bottom: 0.4rem solid #a41a46;
+  border-bottom: 0.4rem solid #935465;
   border-top-right-radius: 0.3rem;
   border-top-left-radius: 0.3rem;
   overflow: hidden;
@@ -729,7 +729,7 @@ button {
   top: 5rem;
 }
 .submenu > a {
-  color: #a41a46;
+  color: #935465;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 100%;
@@ -813,7 +813,7 @@ button {
 
 /* ---------------------- Pink Text Section ---------------------- */
 .pink_section {
-  background: #a41a46;
+  background: #935465;
 }
 .text_lg {
   font-size: 4rem;

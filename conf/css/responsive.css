@@ -1,0 +1,251 @@
+@media (min-width: 1200px) { 
+	.container {
+		max-width: 1170px;
+	}
+}
+
+@media (max-width: 1199px) { 
+
+	#menu li a {
+	    font-size: 9pt;
+	    padding: 10px 8px;
+	}
+
+	.dono-prezi-box {
+    	margin-top: 30px;
+	}
+
+	.head-text {
+    	font-size: 30pt;
+	}
+
+	.dono-prezi-box p {
+    	max-width: 720px;
+	}
+
+	.dono-prezi-box p br {
+    	display: none;
+	}
+
+	.para-text br {
+		display: none;
+	}
+
+	.default-italic-wrapper p br {
+		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+
+	#menu {
+	    position: fixed;
+	    height: 100%;
+	    width: 250px;
+	    left: -100%;
+	    top: 0;
+	    padding: 50px 0 0 25px;
+	    z-index: 9999;
+	    -ms-transform: translateX(-100%);
+	    -o-transition: 0.4s;
+	    -webkit-transition: 0.4s;
+	    transition: 0.4s;
+	    text-align: left;
+	    background-color: rgba(33,33,33,1);
+	}
+
+	.add-menu {
+    	left: 0 !important;
+	}
+
+	.header_container{
+		position: relative;
+	}
+
+	#menu.open{
+		text-align: center;
+		-webkit-transform: translateX(0);
+		    -ms-transform: translateX(0);
+		        transform: translateX(0);
+	}
+
+	#menu li{
+		display: block;
+		padding: 0 15px;
+		max-width: 720px;
+		margin: 0 auto;
+	}
+
+	#menu li a.nav-link {
+	    line-height: 40px;
+	    padding: 0;
+	    width: 100%;
+	    font-size: 12pt;
+	}	
+
+	.hamburger-menu {
+		display: block;
+	}	
+
+	.logo {
+    	margin-left: 50px;
+	}
+
+	.hamburger-menu.add-ham {
+	    background-color: rgba(255,255,255,0.1199999973);
+	    padding: 5px 5px 0px 5px;
+	}
+
+	.popcorn-img {
+    	min-height: 220px;
+	}
+
+	.procon-content h2 {
+    	padding: 20px 0 30px 0;
+	}
+
+	.social-icon span {
+	    margin: 0 6px;
+    	font-size: 14px;
+	}
+
+	.signor-img {
+    	max-width: 250px;
+	}
+
+	.la-parola-wrapper .head-text {
+    	font-size: 28pt;
+	}
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+	.logo {
+    	font-size: 13pt;
+	}
+
+	.logo img {
+	    margin-right: 10px;
+	}
+
+	.hamburger-menu {
+    	left: -43%;
+	}
+
+	.home-logo img {
+    	width: 305px;
+	}
+
+	.social-icon a {
+    	width: 50%;
+   		float: left;
+    	text-align: left;
+	    margin-bottom: 20px;
+	}
+
+	.social-wrapper {
+	    margin: 30px 0 40px 0;
+	}
+
+	.scopri-btn {
+	    font-size: 11pt;
+	    position: relative;
+	    bottom: -15px;
+	}
+
+	.popcorn-img {
+    	min-height: auto;
+	}
+
+	.default-content h2 {
+    	font-size: 44pt;
+	}
+
+	.inviaci-text {
+	    font-size: 12pt;
+	}
+
+	.tido-form.mt_60 {
+    	margin-top: 30px;
+	}
+
+	.la-parola-wrapper {
+    	padding: 20px 0 30px 0;
+	}
+
+	.head-text {
+    	font-size: 26pt;
+	}
+
+	.head-sub-text.mt_60.mb_40 {
+    	margin: 30px 0;
+	}
+
+	.la-parola-wrapper .head-text.mt_50 {
+    	margin-top: 30px;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+	.hamburger-menu {
+    	left: -85%;
+	}
+
+	.logo {
+    	font-size: 12pt;
+	}
+
+	.hamburger-menu {
+    	left: -127%;
+	}
+
+	.logo {
+    	margin-left: 35px;
+	}
+
+	.home-logo img {
+    	width: 250px;
+	}
+
+	.search-boxx {
+    	width: 100%;
+	}
+
+	.head-text {
+    	font-size: 18pt;
+	}
+
+	.procon-content h2 {
+    	font-size: 16pt;
+	}
+
+	.social-icon a {
+    	width: 100%;
+	}
+
+	.social-wrapper {
+	    margin: 30px 0 30px 0;
+	}
+
+    .default-content h2 {
+    	font-size: 30pt;
+	}
+
+	.tido-head h3 {
+    	font-size: 22px;
+	}
+
+	.default-italic-wrapper p {
+    	font-size: 11pt;
+	}
+
+	.la-parola-wrapper .head-text.mt_50 {
+    	font-size: 25pt;
+	}
+
+	.gallery-wrapper .head-text.mb_60 {
+    	margin-bottom: 30px;
+	}
+}
+
