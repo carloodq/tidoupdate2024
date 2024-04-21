@@ -911,6 +911,19 @@ button {
   width: fit-content;
   border-radius: 10rem !important;
 }
+
+.site_btn_no_flex {
+  background: #935465;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 9rem;
+  color: #fff;
+  line-height: normal;
+  font-weight: 300;
+  width: fit-content;
+  border-radius: 10rem !important;
+}
+
 .btn_big {
   font-size: 2.8rem;
 }

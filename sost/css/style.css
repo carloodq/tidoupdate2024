@@ -330,7 +330,6 @@ body {
   line-height: 1.94;
   color: var(--black);
   overflow-x: hidden;
-  font-family: "Quatro";
 }
 
 .container {
@@ -657,7 +656,7 @@ button {
   font-weight: 400;
   line-height: 100%;
   letter-spacing: -0.32px;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto";
   height: 100%;
   display: flex;
   align-items: center;
@@ -734,7 +733,7 @@ button {
   font-weight: 500;
   line-height: 100%;
   letter-spacing: -0.32px;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto";
   border-bottom: 0.1rem solid #efefef;
   padding: 0 2rem;
   align-items: center;
@@ -1026,7 +1025,7 @@ button {
   font-weight: 500;
   color: #000;
   white-space: nowrap;
-  font-family: "Futura-medium", sans-serif;
+  font-family: "Roboto";
 }
 .St_links a:hover {
   color: #8c143d;
@@ -1055,7 +1054,7 @@ button {
 }
 .Form_box input::placeholder {
   color: #a57d7d;
-  font-family: "lato", sans-serif;
+  font-family: "Roboto";
 }
 .Form_box input {
   font-size: 1.4rem;
@@ -1064,7 +1063,7 @@ button {
   box-shadow: 0 0 0.2rem 0.01rem rgba(0, 0, 0, 0.4);
   border-radius: 0.2rem;
   font-weight: 400;
-  font-family: "lato", sans-serif;
+  font-family: "Roboto";
   color: #a57d7d;
 }
 .Form_box .site_btn {
@@ -1087,7 +1086,7 @@ button {
 /* ---------- sostenibilita page css start -------- */
 
 body.sustainability_body{
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto";
 }
 
 

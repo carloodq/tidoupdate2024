@@ -1,8 +1,271 @@
 /*======================
    01. Google fonts
 ========================*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+/* ---------------- Google Fonts -------------- */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+/* ---------------- fonts ------------------ */
+@font-face {
+  font-family: "AvenirLTStd-Heavy";
+  src: url("../fonts/AvenirLTStd-Heavy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BrushScriptMT";
+  src: url("../fonts/BrushScriptMT.ttf") format("truetype");
+  src: url("../fonts/BrushScriptMT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "BrushScriptMT-cursive";
+  src: url("../fonts/brush-script-mt-kursiv.ttf") format("truetype");
+  src: url("../fonts/BRUSHSCI.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "Savoye";
+  src: url("../fonts/savoye_let_plain.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura-medium";
+  src: url("../fonts/futura-medium-bt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-RegularItalic.eot");
+  src: local("Quatro Regular Italic"), local("Quatro-RegularItalic"),
+    url("../fonts/Quatro-RegularItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-RegularItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-RegularItalic.woff") format("woff"),
+    url("../fonts/Quatro-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-ExtraLightItalic.eot");
+  src: local("Quatro ExtraLight Italic"), local("Quatro-ExtraLightItalic"),
+    url("../fonts/Quatro-ExtraLightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Quatro-ExtraLightItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-ExtraLightItalic.woff") format("woff"),
+    url("../fonts/Quatro-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-Regular.eot");
+  src: local("Quatro Regular"), local("Quatro-Regular"),
+    url("../fonts/Quatro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-Regular.woff2") format("woff2"),
+    url("../fonts/Quatro-Regular.woff") format("woff"),
+    url("../fonts/Quatro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-SemiBold.eot");
+  src: local("Quatro SemiBold"), local("Quatro-SemiBold"),
+    url("../fonts/Quatro-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-SemiBold.woff2") format("woff2"),
+    url("../fonts/Quatro-SemiBold.woff") format("woff"),
+    url("../fonts/Quatro-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-Medium.eot");
+  src: local("Quatro Medium"), local("Quatro-Medium"),
+    url("../fonts/Quatro-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-Medium.woff2") format("woff2"),
+    url("../fonts/Quatro-Medium.woff") format("woff"),
+    url("../fonts/Quatro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-BlackItalic.eot");
+  src: local("Quatro Black Italic"), local("Quatro-BlackItalic"),
+    url("../fonts/Quatro-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-BlackItalic.woff") format("woff"),
+    url("../fonts/Quatro-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-ExtraLight.eot");
+  src: local("Quatro ExtraLight"), local("Quatro-ExtraLight"),
+    url("../fonts/Quatro-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-ExtraLight.woff2") format("woff2"),
+    url("../fonts/Quatro-ExtraLight.woff") format("woff"),
+    url("../fonts/Quatro-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-Bold.eot");
+  src: local("Quatro Bold"), local("Quatro-Bold"),
+    url("../fonts/Quatro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-Bold.woff2") format("woff2"),
+    url("../fonts/Quatro-Bold.woff") format("woff"),
+    url("../fonts/Quatro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-LightItalic.eot");
+  src: local("Quatro Light Italic"), local("Quatro-LightItalic"),
+    url("../fonts/Quatro-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-LightItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-LightItalic.woff") format("woff"),
+    url("../fonts/Quatro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro UltraBlack";
+  src: url("../fonts/Quatro-UltraBlack.eot");
+  src: local("Quatro UltraBlack"), local("Quatro-UltraBlack"),
+    url("../fonts/Quatro-UltraBlack.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-UltraBlack.woff2") format("woff2"),
+    url("../fonts/Quatro-UltraBlack.woff") format("woff"),
+    url("../fonts/Quatro-UltraBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-SemiBoldItalic.eot");
+  src: local("Quatro SemiBold Italic"), local("Quatro-SemiBoldItalic"),
+    url("../fonts/Quatro-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/Quatro-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-Black.eot");
+  src: local("Quatro Black"), local("Quatro-Black"),
+    url("../fonts/Quatro-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-Black.woff2") format("woff2"),
+    url("../fonts/Quatro-Black.woff") format("woff"),
+    url("../fonts/Quatro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro Book";
+  src: url("../fonts/Quatro-BookItalic.eot");
+  src: local("Quatro Book Italic"), local("Quatro-BookItalic"),
+    url("../fonts/Quatro-BookItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-BookItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-BookItalic.woff") format("woff"),
+    url("../fonts/Quatro-BookItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-Light.eot");
+  src: local("Quatro Light"), local("Quatro-Light"),
+    url("../fonts/Quatro-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-Light.woff2") format("woff2"),
+    url("../fonts/Quatro-Light.woff") format("woff"),
+    url("../fonts/Quatro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro UltraBlack";
+  src: url("../fonts/Quatro-UltraBlackItalic.eot");
+  src: local("Quatro UltraBlack Italic"), local("Quatro-UltraBlackItalic"),
+    url("../fonts/Quatro-UltraBlackItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Quatro-UltraBlackItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-UltraBlackItalic.woff") format("woff"),
+    url("../fonts/Quatro-UltraBlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro Book";
+  src: url("../fonts/Quatro-Book.eot");
+  src: local("Quatro Book"), local("Quatro-Book"),
+    url("../fonts/Quatro-Book.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-Book.woff2") format("woff2"),
+    url("../fonts/Quatro-Book.woff") format("woff"),
+    url("../fonts/Quatro-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-BoldItalic.eot");
+  src: local("Quatro Bold Italic"), local("Quatro-BoldItalic"),
+    url("../fonts/Quatro-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-BoldItalic.woff") format("woff"),
+    url("../fonts/Quatro-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Quatro";
+  src: url("../fonts/Quatro-MediumItalic.eot");
+  src: local("Quatro Medium Italic"), local("Quatro-MediumItalic"),
+    url("../fonts/Quatro-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Quatro-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Quatro-MediumItalic.woff") format("woff"),
+    url("../fonts/Quatro-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
 
 /*======================
    02. Basic css
@@ -37,7 +300,7 @@ section {
 
 body {
     line-height: 26px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Quatro';
     background-color: #fff;
     color: #000000;
     font-weight: 300;
